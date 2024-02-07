@@ -1,0 +1,435 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(Images/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg);
+    height: 93vh;
+    position: relative;
+    width: 100%;
+}
+div .box{
+    opacity: 0.68;
+    height: 93vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    background-position: center;
+    background-image: no-repeat;
+}
+.svg{
+    height: 150px;
+    width: 150px;
+    fill: red;
+    margin-left: 188px;
+    margin-top: -38px;
+    z-index: 1;
+}
+.nav{
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    margin-top: -45px;
+    /* z-index: 100; */
+}
+.item{
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.language{
+    /* background-color: transparent; */
+    background-color: black;
+    opacity: 0.75;
+    color: white;
+    border: 0.5px solid white;
+    width: 122px;
+    height: 32px;
+    z-index: 1;
+    margin-right: 15px;
+}
+.Sign{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: 1px solid rgb(243, 3, 3);
+    height: 32px;
+    width: 76.8px;
+    margin-left: 15px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-left: auto;
+}
+nav button{
+    z-index: 1;
+}
+.content{
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-family: Martel Sans;
+    
+}
+.bold{
+    font-weight: 1000;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.lite{
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.lite2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.butto:hover button{
+    cursor: pointer;
+}
+.middle_body{
+    margin-top: 160px;
+}
+#op{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 15px;
+    width: 178px;
+    height: 56px;
+    font-weight: 400;
+    font-family: Martel Sans;
+    font-size: 1.2rem;
+    border: 1px solid red;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butto{
+    margin: 5px;
+}
+input{
+    background-color: black;
+    opacity: 0.40;
+    height: 54px;
+    width: 380px;
+    font-size: 18px;
+    border: 0.1px white solid;
+    border-radius: 3px;
+    padding-left: 20px;
+    
+    z-index: 1;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.grey_line{
+    background-color: grey;
+    width: 100vw;
+    height: 8px;
+    opacity: .40;
+}
+.arrow{
+    height: 5px;
+    width: 8px;
+    margin-left: 4px;
+}
+.img{
+    fill: white;
+}
+#image{
+    margin-right: 3px;
+}
+.Next_body{
+    background-color: black;
+    width: 100vw;
+}
+.next_body{
+    /* background-color: black; */
+    /* opacity: 0.64; */
+    height: 78vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.text{
+    color: white;
+    font-family: Martel Sans;
+}
+.big_text{
+    font-weight: 1000;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.small_text{
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+}
+.video_tv{
+    margin-left: 85px;
+    margin-top: -479px;
+    position: absolute;
+    
+}
+.Next_body_1{
+    background-color: black;
+    width: 100vw;
+}
+.next_body_1{
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold_text_1{
+    font-weight: 900;
+    font-size: 3rem;
+    
+}
+.text_1{
+    font-family: Martel Sans;
+    color: white;
+}
+.small_text{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.grey_line_2{
+    background-color: grey;
+    height: 8px;
+    opacity: 0.4;
+    width: 100vw;
+}
+.small_box{
+    border: 0.5px solid white;
+    display: flex;
+    z-index: 1;
+    height: 74px;
+    width: 350px;
+    margin-top: -167px;
+    margin-left: 144px;
+    position: absolute;
+    background-color: black;
+    opacity: .9;
+    border-radius: 13px;
+    padding: 8px;
+    padding-left: 14px;
+}
+.mobile{
+    position: relative;
+}
+.letters{
+    color: white;
+    font-family: Martel Sans;
+    padding: 15px;
+    margin-left: 24px;
+    z-index: 1;
+    margin-top: -9px;
+    height: 65px;
+}
+.gif{
+    margin-top: 8px;
+    margin-left: 53px;
+}
+.Strange{
+    font-weight: 500;
+    font-size: 18px;
+    display: inline;
+    white-space: nowrap;
+    padding: 4px;
+}
+.Download{
+    color : rgb(0, 113, 235);
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 1;
+    display: block;
+}
+.Next_body_3{
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+}
+.words{
+    color: white;
+    font-family: Martel Sans;
+}
+.snall{
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+}
+.next_body_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch{
+    font-weight: 900;
+    font-size: 3rem;
+    font-size: 48px;
+}
+.vid{
+    margin-top: -454px;
+    z-index: 2;
+    margin-left: 110px;
+    position: absolute;
+}
+.imge{
+    z-index: 3;
+    position: relative;
+}
+#video{
+    height: 236px;
+    width: 406px;
+    font-size: 24px;
+}
+.Next_body_4{
+    background-color: black;
+    height: 65vh;
+    width: 100vw;
+}
+.next_body_4{
+    display: flex;
+    font-family: Martel Sans;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.big{
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 8px;
+}
+
+.small{
+    font-weight: 400;
+    font-size: 24px;
+}
+.Next_body_5{
+    background-color: black;
+    height: 170vh;
+    width: 100vw;
+}
+.boxes{
+    color: white;
+    font-family: Martel Sans;
+    text-align: center;
+}
+.objects{
+    background-color: rgb(45, 45, 45);
+    margin: 5px;
+    width: 80vw;
+    text-align: left;
+    height: 10vh;
+    /* margin:  auto; */
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+}
+.Question{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Martel Sans;
+}
+.small_cont{
+    padding: 90px;
+    font-family: Martel Sans;
+}
+.line{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+}
+.emaill{
+    background-color: black;
+    opacity: 0.6;
+    border: 0.7px solid white;
+    border-radius: 2px;
+}
+.get{
+    height: 23px;
+    width: 23px;
+}
+svg{
+    
+    position: absolute;
+}
+.Next_body_6{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -262px;
+}
+.lists a{
+    color: white;
+    font-family: Martel Sans;
+    text-decoration: none;
+    margin: 25vh;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 14;
+    font-weight: 400;
+    flex-direction: row;
+    padding-top: 125px;
+}
+.big_container{
+    margin-top: 0px;
+}
+.number{
+    color: white;
+    padding-top: 110px ;
+}
